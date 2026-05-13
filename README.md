@@ -1,4 +1,4 @@
-# BERTSum: Extractive Summarization on CNN/DailyMail
+# BERTSum: Extractive Summarization on CNN
 
 This repository contains an implementation of the **BERTSum** model for **Extractive Summarization**, based on the paper "Fine-tune BERT for Extractive Summarization" by Yang Liu (2019). The goal is to identify and extract the most important sentences from a document to form a concise summary.
 
