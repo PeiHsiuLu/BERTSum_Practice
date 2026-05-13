@@ -59,5 +59,5 @@ The model was evaluated on the **CNN/DailyMail** validation and test sets. The f
 ## Author
 
 **Pei-Hsiu Lu** * **Affiliation**: Undergraduate student at National Taiwan Normal University (NTNU).
-* **Interests**: Software Development, LLM Integration, and Web Detection.
+* **Interests**: Software Development, LLM Integration, and Web Bug Detection.
 * **Contact**: Paul234jj@gmail.com
