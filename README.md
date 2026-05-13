@@ -2,7 +2,7 @@
 
 This repository contains an implementation of the **BERTSum** model for **Extractive Summarization**, based on the paper "Fine-tune BERT for Extractive Summarization" by Yang Liu (2019). The goal is to identify and extract the most important sentences from a document to form a concise summary.
 
-And you can download the notebook: [download me and test](https://github.com/PeiHsiuLu/BERTSum_Practice/blob/main/ExtractiveSummarization_RevisedVersion.ipynb) or test on the Colab environment:[Run and test in the Colab](https://colab.research.google.com/drive/10Jxo7o3B5MibkCfbZ5YVPExczizEVOvJ?usp=sharing)
+And you can download the notebook: [download me and test](https://github.com/PeiHsiuLu/BERTSum_Practice/blob/main/ExtractiveSummarization_RevisedVersion.ipynb) or test on the Colab environment: [Run and test in the Colab](https://colab.research.google.com/drive/10Jxo7o3B5MibkCfbZ5YVPExczizEVOvJ?usp=sharing)
 
 ## Project Overview
 BERTSum modifies the vanilla BERT architecture by inserting multiple `[CLS]` tokens at the start of each sentence and utilizing **Interval Segment Embeddings** to distinguish multiple sentences within a document. This implementation uses a simple linear classifier on top of BERT outputs to predict the importance of each sentence.
